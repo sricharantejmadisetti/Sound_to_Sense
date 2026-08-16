@@ -1,0 +1,112 @@
+# ----------------------------------------------
+# Python
+# ----------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------------------------
+# Virtual environments
+# ----------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------------------------------
+# Jupyter
+# ----------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------------------------------------
+# Model checkpoints & weights  (large binaries)
+# ----------------------------------------------
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.safetensors
+
+# ----------------------------------------------
+# Dataset caches & pickles
+# ----------------------------------------------
+data/cache_*.pkl
+data/__pycache__/
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ----------------------------------------------
+# Compressed archives
+# ----------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# ----------------------------------------------
+# Temporary / scratch audio files
+# ----------------------------------------------
+temp/
+
+# ----------------------------------------------
+# Logs & misc output
+# ----------------------------------------------
+*.log
+*.csv
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# ----------------------------------------------
+# OS artefacts
+# ----------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------------------------
+# IDE / editor
+# ----------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------
+# Planning / agent artefacts (local only)
+# ----------------------------------------------
+implementation_plan.md
+implementation_plan1
+walkthrough.md
